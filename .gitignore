@@ -1,0 +1,13 @@
+# UV files
+.python-version
+pyproject.toml
+uv.lock
+
+# Virtual environment
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data folders
+data
