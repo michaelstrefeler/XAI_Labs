@@ -1,5 +1,5 @@
 {
-  "fitness":0.771291,
+  "fitness":0.791897,
   "fitness_metrics_weights":{
     "sensitivity":1.0,
     "specificity":1.0,
@@ -20,39 +20,39 @@
   },
   "fuzzy_system":{
     "parameters":{
-      "nb_rules":3,
+      "nb_rules":2,
       "nb_input_sets":2,
       "nb_output_sets":2
     },
     "variables":{
       "input":{
+        "Feature_2":{
+          "name":"Feature_2",
+          "Sets":{
+            "Set":{
+              "name":"Feature_2.1",
+              "position":0.371922,
+              "pretty":"Feature_2.1@0.371922"
+            },
+            "Set":{
+              "name":"Feature_2.2",
+              "position":1.362431,
+              "pretty":"Feature_2.2@1.362431"
+            }
+          }
+        },
         "Feature_3":{
           "name":"Feature_3",
           "Sets":{
             "Set":{
               "name":"Feature_3.1",
-              "position":0.489412,
-              "pretty":"Feature_3.1@0.489412"
+              "position":0.281412,
+              "pretty":"Feature_3.1@0.281412"
             },
             "Set":{
               "name":"Feature_3.2",
-              "position":0.590353,
-              "pretty":"Feature_3.2@0.590353"
-            }
-          }
-        },
-        "Feature_7":{
-          "name":"Feature_7",
-          "Sets":{
-            "Set":{
-              "name":"Feature_7.1",
-              "position":61.466667,
-              "pretty":"Feature_7.1@61.466667"
-            },
-            "Set":{
-              "name":"Feature_7.2",
-              "position":119.066667,
-              "pretty":"Feature_7.2@119.066667"
+              "position":0.376235,
+              "pretty":"Feature_3.2@0.376235"
             }
           }
         },
@@ -61,13 +61,13 @@
           "Sets":{
             "Set":{
               "name":"Feature_11.1",
-              "position":9.124706,
-              "pretty":"Feature_11.1@9.124706"
+              "position":9.102745,
+              "pretty":"Feature_11.1@9.102745"
             },
             "Set":{
               "name":"Feature_11.2",
-              "position":10.837647,
-              "pretty":"Feature_11.2@10.837647"
+              "position":11.18902,
+              "pretty":"Feature_11.2@11.18902"
             }
           }
         }
@@ -94,31 +94,18 @@
       "rule1":{
         "antecedents":{
           "antecedent":{
-            "var_name":"Feature_7",
-            "set_name":"Feature_7.2",
-            "set_index":1,
-            "set_position":119.066667,
-            "set_pretty":"Feature_7.2@119.066667"
-          }
-        },
-        "consequents":{
-          "consequent":{
-            "var_name":"OUT",
-            "set_name":"OUT.1",
+            "var_name":"Feature_2",
+            "set_name":"Feature_2.1",
             "set_index":0,
-            "set_position":0.0,
-            "set_pretty":"OUT.1@0.0"
-          }
-        }
-      },
-      "rule2":{
-        "antecedents":{
+            "set_position":0.371922,
+            "set_pretty":"Feature_2.1@0.371922"
+          },
           "antecedent":{
-            "var_name":"Feature_3",
-            "set_name":"Feature_3.2",
+            "var_name":"Feature_11",
+            "set_name":"Feature_11.2",
             "set_index":1,
-            "set_position":0.590353,
-            "set_pretty":"Feature_3.2@0.590353"
+            "set_position":11.18902,
+            "set_pretty":"Feature_11.2@11.18902"
           }
         },
         "consequents":{
@@ -131,23 +118,30 @@
           }
         }
       },
-      "rule3":{
+      "rule2":{
         "antecedents":{
           "antecedent":{
             "var_name":"Feature_11",
-            "set_name":"Feature_11.1",
-            "set_index":0,
-            "set_position":9.124706,
-            "set_pretty":"Feature_11.1@9.124706"
+            "set_name":"Feature_11.2",
+            "set_index":1,
+            "set_position":11.18902,
+            "set_pretty":"Feature_11.2@11.18902"
+          },
+          "antecedent":{
+            "var_name":"Feature_3",
+            "set_name":"Feature_3.2",
+            "set_index":1,
+            "set_position":0.376235,
+            "set_pretty":"Feature_3.2@0.376235"
           }
         },
         "consequents":{
           "consequent":{
             "var_name":"OUT",
-            "set_name":"OUT.1",
-            "set_index":0,
-            "set_position":0.0,
-            "set_pretty":"OUT.1@0.0"
+            "set_name":"OUT.2",
+            "set_index":1,
+            "set_position":1.0,
+            "set_pretty":"OUT.2@1.0"
           }
         }
       }
@@ -155,10 +149,10 @@
     "default_rules":{
       "rule1":{
         "var_name":"OUT",
-        "set_name":"OUT.2",
-        "set_index":1,
-        "set_position":1.0,
-        "set_pretty":"OUT.2@1.0"
+        "set_name":"OUT.1",
+        "set_index":0,
+        "set_position":0.0,
+        "set_pretty":"OUT.1@0.0"
       }
     }
   },
