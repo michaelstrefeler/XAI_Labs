@@ -14,3 +14,11 @@ data
 
 # TP3
 fuzzycocopython
+*.zip
+TP1_Feature_Selection/XAI_TP1_2025_feedback.ipynb
+TP1_Feature_Selection/XAI_TP1_2025_Julien.ipynb
+TP1_Feature_Selection/XAI_TP1_2025_NOM_PRENOM.ipynb
+TP2_Fuzzy_Logic/XAI_2025_Fuzzy_Logic_Tutorial.ipynb
+TP2_Fuzzy_Logic/XAI_TP2_2025_feedback.ipynb
+TP3_Fuzzy_CoCo/XAI_TP3_2025_feedback.ipynb
+TP4_PostHoc_Tabular/XAI_TP4_2025_NOM_PRENOM.ipynb

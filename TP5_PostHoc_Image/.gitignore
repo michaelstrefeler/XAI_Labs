@@ -1,4 +1,6 @@
-data
-.history
-models
-scripts
+# Ignore tout
+**
+# mais cherche dans tout le projet
+!*/
+# pour ne pas ignorer les fichiers Jupyter notebook (.ipynb)
+!**/*.ipynb
