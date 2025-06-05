@@ -6,7 +6,6 @@
 ## EDA
 
 - [x] Corrélation des variables (matrice, peut-être)
-- [ ] PCA (pas sûr si on a besoin de le faire)
 
 ## Feature selection
 
@@ -20,7 +19,7 @@
 
 ## Méthodes Post-hoc
 
-- [ ] Réseau de neurones
+- [x] Réseau de neurones
 - [ ] Autres types de black-box
 - [ ] Évaluation des performances (e.g. accuracy, précision, rappel, AUC…)
 
